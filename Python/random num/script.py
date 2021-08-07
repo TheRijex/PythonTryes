@@ -13,5 +13,7 @@ while tries < 6:
         print('Your guess is to high')
     if guess == number:
         print(f'You guessed my number in {tries} guesses')
+        break
     if guess != number and tries == 6:
         print(f"Sorry, but you didn't make it. My number is {number}")
+        break
